@@ -1,4 +1,4 @@
-CREATE TABLE devices(
+CREATE TABLE parameters(
     id INT NOT NULL AUTO_INCREMENT,
     device_id INT NOT NULL,
     parameter_name VARCHAR(100) NOT NULL,

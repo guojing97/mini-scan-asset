@@ -6,9 +6,8 @@ CREATE TABLE parameters(
     good VARCHAR(100) NOT NULL,
     bad VARCHAR(100) NOT NULL,
     notes TEXT,
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP,
-
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (id),
     FOREIGN KEY (device_id) REFERENCES devices(id)
 )ENGINE= InnoDB;

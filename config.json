@@ -1,0 +1,12 @@
+{
+    "app":{
+        "name": "GO Scan",
+        "version":"1.0.0",
+        "author":"Kevin Hendrawan Hartono"
+    },
+    "database":{
+        "show_sql":true,
+        "host":"localhost",
+        "port":3306
+    }
+}
